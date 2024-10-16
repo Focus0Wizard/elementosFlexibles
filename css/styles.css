@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.contenedor-flexible{    
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.uno{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.dos{
+    background-color: orange;
+    width: 150px;
+    height: 250px;
+    color: white;
+    text-align: center;
+}
+
+.tres{
+    background-color: violet;
+    width: 150px;
+    height: 350px;
+    color: white;
+    text-align: center;
+}
+
+.cuatro{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.contenedor2{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
